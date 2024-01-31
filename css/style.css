@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face{
+    src: url("../media/fonts/PlayfairDisplay-Black.ttf");
+    font-family: playfairblk;
+}
+
+@font-face{
+    src: url("../media/fonts/PlayfairDisplay-Regular.ttf");
+    font-family: playfair;
+}
+
+@font-face{
+    src: url("../media/fonts/PlayfairDisplay-BoldItalic.ttf");
+    font-family: playfairboldital;
+}
+
+/* VERTICAL NAV MENU STYLING */
+/* .menu ul{
+    list-style-type: none;
+    background-color: rgb(143, 190, 190);
+    width: 200px;
+}
+
+.menu li a{
+    display: block;
+    width: 60px;
+    color:azure;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    text-align: center;
+} */
+
+/* Change the link color on hover */
+/* .menu li a:hover{
+    background-color:rgb(245, 241, 237);
+    color: rgb(143, 190, 190);
+} */
+
+/* HORIZONTAL NAV MENU STYLING */
+
+h1{
+    font-family: playfairblk;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    color:rgb(231, 161, 140);
+}
+
+.quote{
+    font-family: playfairboldital;
+    font-size: 25px;
+    display: block;
+    color:lightslategray;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+p2{
+    font-family: playfair;
+    color:darkslategray;
+    display:block;
+    text-align: center;
+}
+
+.menu ul{
+    list-style-type: none;
+    background-color: rgb(143, 190, 190);
+    overflow: hidden;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: aliceblue;
+    color:rgb(143, 190, 190);
+}
+
+.menu{
+    font-family: playfairblk;
+}
+
+.capecodvid{
+    width: 500px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    text-align: center;
+    display:block;
+    font-family:playfair;
+    background-color: rgb(243, 220, 191);
+    color:floralwhite
+}
+
+img{
+    width:250px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-color: #a7c5c5;
+    font-family: playfair;
+    font-size: 15px;
+    color:darkslategray;
+    text-align: center;
+    margin-right:auto;
+    margin-left: auto;
+  }
+
+
+p3{
+    text-align: center;
+    display:block;
+    font-family: playfairblk;
+    color:lightslategray;
+    font-size: 30px;
+}
+
+.list{
+    font-family: playfair;
+    font-size: 20px;
+}
